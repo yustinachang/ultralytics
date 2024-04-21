@@ -61,6 +61,7 @@ from .conv import (
     LightConv,
     RepConv,
     SpatialAttention,
+    ### add ###
     BiFPN_Concat2,
     BiFPN_Concat3,
 )
@@ -77,6 +78,8 @@ from .transformer import (
     TransformerEncoderLayer,
     TransformerLayer,
 )
+### add ###
+from .module_GiraffeDet import(CSPStage)
 
 __all__ = (
     "Conv",
@@ -137,6 +140,8 @@ __all__ = (
     "CBFuse",
     "CBLinear",
     "Silence",
+    ### add ###
     "BiFPN_Concat2",
     "BiFPN_Concat3",
+    "CSPStage",
 )
